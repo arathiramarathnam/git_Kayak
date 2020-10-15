@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.kayak.stepdefinition.StepDefinitionForKayakFlightsSearch">
+        <methods>
+          <include name="TriggerDependencies"/>
+          <include name="remove_and_clear_the_selected_travel_Origin_and_Destination_Cities"/>
+          <include name="enter_travel_Origin_and_Destination_Cities"/>
+          <include name="ShuttingDownAllDependencies"/>
+        </methods>
+      </class> <!-- com.kayak.stepdefinition.StepDefinitionForKayakFlightsSearch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
